@@ -30,5 +30,10 @@ public class Student {
     private Integer age;
 
 
-
+    public Student(String name, String email, LocalDate dob, int age) {
+        this.name = name;
+        this.email = email;
+        this.dob = dob;
+        this.age = age;
+    }
 }
